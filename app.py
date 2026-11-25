@@ -3,7 +3,7 @@ from pypdf import PdfReader
 from transformers import pipeline
 
 # Konfigurasi halaman web
-st.set_page_title("Smart Reader - AI Summarizer")
+st.set_page_config(page_title="Smart Reader - AI Summarizer", page_icon="✨", layout="centered")
 
 # Desain Tampilan dengan CSS (Gradasi Pink Muda ke Biru Muda)
 st.markdown("""
