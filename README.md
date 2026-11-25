@@ -1,0 +1,1 @@
+#Smart Reader\nAplikasi AI untuk merangkum dokumen PDF secara otomatis.
