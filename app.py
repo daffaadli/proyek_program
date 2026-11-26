@@ -31,7 +31,12 @@ st.markdown("""
 # Judul Aplikasi
 st.markdown("<h1 class='main-header'>✨ Smart Reader ✨</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #34495e;'>Asisten pintar berbasis AI untuk merangkum dokumen dan materi pelajaran PDF dengan cepat.</p>", unsafe_allow_html=True)
+<<<<<<< HEAD
 # Membuat wadah (Card) untuk unggah file PDF
+=======
+
+# Membuat wadah untuk unggah file PDF
+>>>>>>> temp-branch
 st.markdown("<div class='card'>", unsafe_allow_html=True)
 st.subheader("📂 Unggah Dokumen PDF")
 uploaded_file = st.file_uploader("Pilih file PDF yang ingin dirangkum", type=["pdf"])
